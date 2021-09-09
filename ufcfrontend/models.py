@@ -7,3 +7,4 @@ class Fighter(models.Model):
     currentDivision = models.CharField(max_length=100)
     record = models.CharField(max_length=100)
     img = models.CharField(max_length=200)
+    age = models.IntegerField()
